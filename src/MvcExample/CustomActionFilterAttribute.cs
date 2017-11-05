@@ -5,6 +5,9 @@ using MvcExample.Dependencies;
 
 namespace MvcExample
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class CustomActionFilterAttribute : ActionFilterAttribute
     {
         public IFilterDependency Dependency { get; set; }

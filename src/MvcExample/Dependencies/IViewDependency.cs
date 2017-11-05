@@ -4,6 +4,7 @@ using System.Linq;
 namespace MvcExample.Dependencies
 {
     /// <summary>
+    /// 抽象：把一个过滤器抽象出来，过滤器注入到一个Razor视图中
     /// Simple dependency to show injection into a Razor view.
     /// </summary>
     public interface IViewDependency

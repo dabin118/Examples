@@ -21,6 +21,7 @@ namespace MvcExample.Controllers
             return View();
         }
 
+        
         [CustomActionFilter]
         public async Task<ActionResult> Index()
         {

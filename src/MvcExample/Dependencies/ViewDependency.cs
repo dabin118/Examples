@@ -4,12 +4,14 @@ using System.Linq;
 namespace MvcExample.Dependencies
 {
     /// <summary>
+    /// 实现一个视图的过滤器
     /// Implementation of a simple dependency to inject into a view.
     /// </summary>
     /// <seealso cref="MvcExample.Dependencies.IViewDependency" />
     public class ViewDependency : IViewDependency
     {
         /// <summary>
+        /// 得到Guid
         /// Initializes a new instance of the <see cref="BaseDependency"/> class.
         /// </summary>
         public ViewDependency()
